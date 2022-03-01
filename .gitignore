@@ -1,0 +1,214 @@
+.идея /
+
+# Создано https://www.gitignore.io/api/macos,linux,django,python,pycharm
+
+# ## Джанго ###
+* .лог
+* .горшок
+* .pyc
+__pycache__ /
+local_settings.py
+db.sqlite3
+СМИ
+
+# ## Линукс ###
+* ~
+
+# временные файлы, которые могут быть созданы, если процесс все еще имеет открытый дескриптор удаленного файла
+.fuse_hidden *
+
+# Настройки каталога KDE
+.директория
+
+# Папка для мусора Linux, которая может появиться на любом разделе или диске
+.Корзина- *
+
+# Файлы .nfs создаются, когда открытый файл удаляется, но к нему все еще обращаются
+.нфс *
+
+# ## macOS ###
+* .DS_Store
+.AppleDouble
+.LSOverride
+
+# Иконка должна заканчиваться двумя \r
+Значок
+
+# Миниатюры
+._ *
+
+# Файлы, которые могут появиться в корне тома
+.DocumentRevisions-V100
+.fseventsd
+.Прожектор-V100
+.Временные элементы
+.Корзины
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Каталоги, потенциально созданные на удаленном общем ресурсе AFP
+.AppleDB
+.AppleDesktop
+ Папка сетевой корзины
+Временные  предметы
+.apdisk
+
+# ## PyCharm ###
+# Охватывает IDE JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio и Webstorm
+# Ссылка: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Пользовательские вещи:
+.идея / ** / workspace.xml
+.идея / ** / задачи.xml
+.идея / словари
+
+# Конфиденциальные или часто используемые файлы:
+.идея / ** / источник данных /
+.idea / ** / dataSources.ids
+.идея / ** / источник данных.xml
+.idea / ** / dataSources.local.xml
+.идея / ** / sqlDataSources.xml
+.идея / ** / динамический.xml
+.idea / ** / uiDesigner.xml
+
+# Грейдл:
+.идея / ** / градле.xml
+.idea / ** / библиотеки
+
+# CMake
+cmake-сборка-отладка /
+
+# Плагин Mongo Explorer:
+.idea / ** / mongoSettings.xml
+
+# # Файловый формат проекта:
+* .iws
+
+# # Файлы, специфичные для плагина:
+
+# IntelliJ
+/ вне /
+
+# плагин mpeltonen/sbt-idea
+.idea_modules /
+
+# JIRA-плагин
+atlassian-ide-plugin.xml
+
+# Плагин Cursive Clojure
+.идея / replstate.xml
+
+# Плагин Crashlytics (для Android Studio и IntelliJ)
+com_crashlytics_export_strings.xml
+Crashlytics.properties
+Crashlytics-build.properties
+ткань.свойства
+
+# ## Патч PyCharm ###
+# Причина комментария: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.имл
+# модули.xml
+# .идея/разное.xml
+# *.ipr
+
+# Плагин Sonarlint
+.идея / сонарлинт
+
+# ## Питон ###
+# Байт-компилированные/оптимизированные/DLL-файлы
+* .py [ код ]
+* $py.класс
+
+# Расширения C
+* .so
+
+# Распространение/упаковка
+.Питон
+окр /
+построить /
+развивать-яйца /
+расстояние /
+загрузки /
+яйца /
+.яйца /
+библиотека /
+библиотека64 /
+части /
+срасст /
+вар /
+колеса /
+* .яйцо-информация /
+.установлено.cfg
+* .яйцо
+
+# PyInstaller
+#   Обычно эти файлы пишутся скриптом python из шаблона
+#   до того, как PyInstaller создаст исполняемый файл, чтобы добавить в него дату/другую информацию.
+* .манифест
+* .спецификация
+
+# Логи установщика
+пип-log.txt
+pip-delete-this-directory.txt
+
+# Модульные тесты / отчеты о покрытии
+htmlcov /
+.токс /
+.покрытие
+.покрытие. *
+.кэш
+носовые тесты.xml
+покрытие.xml
+* , обложка
+.гипотеза /
+
+# Переводы
+* .мо
+
+# Материал Джанго:
+
+# Фляга:
+экземпляр /
+.webassets-кэш
+
+# Парсер:
+.скрейпи
+
+# документация по сфинксу
+документы / _сборка /
+
+# Пибилдер
+цель /
+
+# Блокнот Юпитер
+.ipynb_checkpoints
+
+# пиенв
+.python-версия
+
+# файл расписания ударов сельдерея
+celerybeat-график
+
+# файлы, проанализированные SageMath
+* .sage.py
+
+# дотенв
+.env
+
+# виртуальная среда
+.venv
+Венв /
+ENV /
+
+# Настройки проекта Spyder
+.spyderproject
+.spyproject
+
+# Настройки проекта веревки
+.ropeproject
+
+# документация mkdocs
+/ сайт
+
+# Конец https://www.gitignore.io/api/macos,linux,django,python,pycharm
